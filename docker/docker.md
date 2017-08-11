@@ -9,8 +9,8 @@
 ---
 
 * install
-* [[Docker] ubuntu 14.04/16.04にDockerをインストール - Qiita](http://qiita.com/koara-local/items/ee887bab8c7186d00a88)
-* [Get Docker CE for Ubuntu | Docker Documentation](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-from-a-package)
+  * [[Docker] ubuntu 14.04/16.04にDockerをインストール - Qiita](http://qiita.com/koara-local/items/ee887bab8c7186d00a88)
+  * [Get Docker CE for Ubuntu | Docker Documentation](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-from-a-package)
 ```bash
 $ sudo apt-get remove \
     docker \
@@ -44,6 +44,8 @@ $ sudo groupadd docker
 $ sudo gpasswd -a $USER docker
 
 $ docker -v
+
+$ sudo reboot
 ```
 
 ---
