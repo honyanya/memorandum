@@ -103,5 +103,15 @@ $ ibus-daemon -d -x &
   * 次のソースの切り替え
     * 左 Shift キー などにしておく
 
+
+* 時刻設定
+  * [Ubuntu 16.04 LTS : システムのタイムゾーンを設定する ： Server World](https://www.server-world.info/query?os=Ubuntu_16.04&p=timezone)
+```bash
+$ sudo timedatectl set-timezone Asia/Tokyo
+$ timedatectl
+$ date
+```
+
+
 ---
 
