@@ -136,10 +136,12 @@ $ vagrant -v
 ```bash
 $ mkdir ~/Documents/dev/vagrant/
 $ cd  ~/Documents/dev/vagrant/
-$ vagrant box add centos67 https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box
+
+$ vagrant box add boxcutter/centos67-i386
 $ vagrant box list
-$ vagrant init centos67
-$ mkdir centos67 && cd centos67
+
+$ mkdir -p boxcutter/centos67-i386/ && boxcutter/centos67-i386/
+$ vagrant init boxcutter/centos67-i386
 $ vagrant up
 $ vagrant ssh
 $ vagrant halt
