@@ -16,6 +16,7 @@ $ which sbtenv
 ```
 
 * sbtenv
+  * [Play Frameworkハンズオン環境構築 - Qiita](http://qiita.com/yuichi0301/items/4785e3fe490736d4ee50#2sbt%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E7%A2%BA%E8%AA%8D)
 ```bash
 $ sbtenv install sbt-0.13.12
 $ sbtenv versions
