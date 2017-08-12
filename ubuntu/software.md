@@ -107,6 +107,12 @@ $ sudo dpkg -i virtualbox-5.1_5.1.26-117224~Ubuntu~xenial_amd64.deb
 
 $ sudo apt-get install -f
 $ sudo dpkg -i virtualbox-5.1_5.1.26-117224~Ubuntu~xenial_amd64.deb
+
+$ sudo apt-get -y install \
+    linux-headers-4.4.0-91-generic \
+    linux-headers-generic
+$ sudo /sbin/vboxconfig
+$ VBoxManage --version
 ```
 ランチャー登録
 
