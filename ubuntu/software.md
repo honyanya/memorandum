@@ -133,6 +133,7 @@ $ cd  ~/Documents/dev/vagrant/
 $ vagrant box add centos67 https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box
 $ vagrant box list
 $ vagrant init centos67
+$ mkdir centos67 && cd centos67
 $ vagrant up
 $ vagrant ssh
 $ vagrant halt
