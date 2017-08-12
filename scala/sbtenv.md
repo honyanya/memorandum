@@ -21,7 +21,7 @@ $ sbtenv install sbt-0.13.12
 $ sbtenv versions
 $ sbtenv global sbt-0.13.12
 $ sbtenv rehash
-$ sbt
+$ sbt sbtVersion
 ```
 
 ---
