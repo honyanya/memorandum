@@ -69,7 +69,39 @@ $ cd ~/Documents/tmp/
 $ sudo wget https://github.com/atom/atom/releases/download/v1.19.0/atom-amd64.deb
 $ sudo dpkg -i atom-amd64.deb
 ```
-ランチャー登録
+ランチャー登録、プラグインインストール
+[Atomにインストールしているパッケージたち（フロントエンド用） - diwao日記](http://diwao.com/2017/01/atom-installed-packages.html)
+[Atomのterminal-plusが動かないトラブル - 数弱プログラマのいろいろ](http://namedpython.hatenablog.com/entry/2017/01/01/192739)
+[Atomのインストール済みパッケージリストを出力する方法 - Qiita](http://qiita.com/n-oshiro/items/2cad3876468c8d078ae6)
+```bash
+$ apm list --installed --bare
+atom-beautify@0.30.5
+autoclose-html@0.23.0
+autocomplete-paths@2.4.0
+busy-signal@1.4.3
+color-picker@2.2.5
+editorconfig@2.2.2
+emmet@2.4.3
+file-icons@2.1.10
+highlight-line@0.12.0
+highlight-selected@0.13.1
+intentions@1.1.5
+linter@2.2.0
+linter-csslint@1.3.4
+linter-eslint@8.2.1
+linter-scss-lint@3.1.0
+linter-ui-default@1.6.4
+platformio-ide-terminal@2.5.5
+pretty-json@1.6.4
+project-manager@3.3.5
+regex-railroad-diagram@0.19.3
+script@3.15.0
+split-diff@1.4.3
+terminal-plus@0.14.5
+trailing-spaces@0.4.0
+```
+
+
 
 
 * Visual Studio Code
