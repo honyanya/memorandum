@@ -32,13 +32,16 @@ Vagrant.configure("2") do |config|
 
   # ローカルへのポート3000アクセスをvmのポート3000に転送（Web開発で必要な場合）
   config.vm.network "forwarded_port", guest: 3000, host: 3000
+  config.vm.network "forwarded_port", guest: 8080, host: 8080
+  config.vm.network "forwarded_port", guest: 9000, host: 9000
 
   # Windowsローカル環境から、192.168.33.10で接続
   config.vm.network "private_network", ip: "192.168.33.10"
 
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
-    vb.memory = "2048" # メモリは2GB
+    # vb.memory = "2048" # メモリは2GB
+    vb.memory = "4096" # メモリは4GB
 
     vb.customize [
       "modifyvm", :id,
